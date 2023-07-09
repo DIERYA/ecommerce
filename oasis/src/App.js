@@ -1,20 +1,19 @@
-import "./App.css";
-import Navbar from "./components/Navbar";
-import logo from "./images/logo-transparent-png.png";
+import './App.css';
+import Navbar from './components/Navbar';
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Navbar />
-      <div className="title">
-        <img src={logo} alt="Oasis"></img>
-        <h1>Revolutionary Marketplace</h1>
+      <div className='title'>
+        <div className='title-container'>
+          <h1 id='title'>Oasis</h1>
+        </div>
       </div>
     </div>
   );
 }
 
 export default App;
-
 
 // HomeWork:
 // The'title' div currently has two things:
