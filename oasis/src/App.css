@@ -2,9 +2,31 @@
   padding: 5px;
 }
 
-#logo {
-  height: 50px;
-  width: 50px;
+.logo {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  transition: box-shadow 0.3s ease;
+}
+
+.logo:hover {
+  animation: glow 1s infinite;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px yellow; /* Adjust the glow color and size as needed */
+  }
+  50% {
+    box-shadow: 0 0 20px 10px yellow; /* Adjust the glow color and size as needed */
+  }
+  100% {
+    box-shadow: 0 0 10px yellow; /* Adjust the glow color and size as needed */
+  }
+}
+
+.logo {
+  margin: 0px;
 }
 
 .title-container {
@@ -13,10 +35,11 @@
   align-items: center;
   width: 100%;
   height: 300px;
-  background-image: url('https://img.freepik.com/free-vector/alien-planet-landscape-with-fantasy-mushroom-trees_107791-7870.jpg');
+  background-size: cover;
 }
 
 #title {
   font-size: 200px;
   color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }

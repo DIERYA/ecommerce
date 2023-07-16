@@ -1,11 +1,16 @@
 import './App.css';
 import Navbar from './components/Navbar';
+import oasisImage from './images/oasis.jpg';
+
 function App() {
   return (
     <div className='App'>
       <Navbar />
       <div className='title'>
-        <div className='title-container'>
+        <div
+          className='title-container'
+          style={{ backgroundImage: `url(${oasisImage})` }}
+        >
           <h1 id='title'>Oasis</h1>
         </div>
       </div>
@@ -14,10 +19,3 @@ function App() {
 }
 
 export default App;
-
-// HomeWork:
-// The'title' div currently has two things:
-// logo & Text
-// We want the logo to the left and text to the right
-// Resize image to match text size
-// center on page and have some padding from navbar t
