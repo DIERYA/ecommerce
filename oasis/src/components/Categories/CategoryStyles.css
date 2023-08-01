@@ -1,0 +1,27 @@
+.container-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    background-color: white;
+    height: 50px;
+}
+
+.container-nav ul {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 1rem;
+    color: white;
+    list-style: none;
+}
+
+.container-nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0px 2px;
+
+}
+
+
