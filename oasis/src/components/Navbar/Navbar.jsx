@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../images/logo-cropped.png";
 import "./NavbarStyles.css";
-import Categories from "../Categories/Categories"
+import Categories from "../Categories/Categories";
 
 const Navbar = () => {
   return (
@@ -60,7 +60,6 @@ const Navbar = () => {
       </nav>
 
       <Categories />
-      
     </div>
   );
 };

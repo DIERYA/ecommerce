@@ -18,4 +18,71 @@ ul {
 
 a {
   text-decoration: none;
+  color: black;
+}
+
+.horizontal-scroll {
+  white-space: nowrap;
+  overflow-x: auto;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; 
+}
+
+.horizontal-scroll li {
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ccc; 
+}
+
+.horizontal-scroll li:last-child {
+  border-right: none; 
+}
+
+/* __________________________ */
+
+.navbar {
+  padding: 5px;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  transition: box-shadow 0.3s ease;
+}
+
+.logo:hover {
+  animation: glow 1s infinite;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px yellow;
+  }
+  50% {
+    box-shadow: 0 0 20px 10px yellow;
+  }
+  100% {
+    box-shadow: 0 0 10px yellow;
+  }
+}
+
+.logo {
+  margin: 0px;
+}
+
+.dropdown {
+  display: flex;
+}
+
+.dropdown-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  width: 40em;
 }
