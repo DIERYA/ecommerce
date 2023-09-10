@@ -23,7 +23,7 @@ const Navbar = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarColor03">
+          <div className="collapse navbar-collapse search-bar" id="navbarColor03">
             <ul className="navbar-nav me-auto">
               <li className="nav-item dropdown">
                 <div className="dropdown-arrow">
