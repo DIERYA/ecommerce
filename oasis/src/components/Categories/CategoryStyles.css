@@ -10,6 +10,7 @@
 ul {
   margin: 0px;
   padding: 0px;
+  height: 35px;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -27,18 +28,27 @@ a {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex; 
+  display: flex;
 }
 
 .horizontal-scroll li {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 10px;
-  border-right: 1px solid #ccc; 
+  border-right: 1px solid #ccc;
 }
 
 .horizontal-scroll li:last-child {
-  border-right: none; 
+  border-right: none;
 }
 
-/* __________________________ */
+.horizontal-scroll a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
 
+.horizontal-scroll a:hover {
+  background-color: #e0e0e0;
+}
