@@ -1,16 +1,21 @@
 import './App.css';
-import Navbar from './components/Navbar';
-
+import Navbar from './components/Navbar/Navbar';
+import oasisImage from './images/oasis.jpg';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Navbar />
-      <header className="App-header"></header>
+      <div className='title'>
+        <div
+          className='title-container'
+          style={{ backgroundImage: `url(${oasisImage})` }}
+        >
+          <h1 id='title'>Oasis</h1>
+        </div>
+      </div>
     </div>
   );
 }
 
 export default App;
-
-
