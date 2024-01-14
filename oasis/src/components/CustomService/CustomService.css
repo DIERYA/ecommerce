@@ -1,0 +1,56 @@
+.welcomeHeader {
+  padding: 1em;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.welcomeHeader2 {
+  padding: 1em;
+  font-size: 20px;
+  color: #555;
+}
+
+.accordion-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+.accordion-item {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.accordion-button {
+  background-color: #f8f9fa;
+  color: #333;
+  border: none;
+  border-radius: 0;
+  padding: 1em;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.collapsed {
+  background-color: #f8f9fa;
+}
+
+.accordion-body {
+  background-color: #f8f9fa;
+  padding: 1em;
+  font-size: 16px;
+  color: #555;
+}
+.prime-header {
+  padding-left: 20em;
+}

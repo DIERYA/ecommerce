@@ -1,0 +1,86 @@
+/* Add these styles to the existing CSS file */
+
+/* Header styles */
+.header1 {
+  padding: 2em;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.header2 {
+  padding: 1em;
+  font-size: 24px;
+  color: #000000;
+  text-align: center;
+}
+
+.header3 {
+    padding-left: 20em;
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: #ff9900;
+  color: #fff;
+  border: none;
+  padding: 0.8em 2em;
+  font-size: 20px;
+  cursor: pointer;
+  display: block;
+  margin: 2em auto;
+}
+
+/* Card styles */
+.card {
+  margin-bottom: 2em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 50em; /* Decreased width */
+  margin: 0 auto; /* Center align */
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  font-weight: bold;
+  padding: 1em;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.card-text {
+  font-size: 18px;
+  margin-bottom: 1em;
+}
+
+/* Accordion styles */
+.accordion-button {
+  background-color: #f8f9fa;
+  color: #333;
+  font-weight: bold;
+  padding: 1em;
+  width: 100%;
+  text-align: left;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.accordion-body {
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 1em;
+}
+
+.accordion-item {
+  margin: 0 auto; /* Center align */
+  max-width: 40em;
+}
