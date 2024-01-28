@@ -1,0 +1,59 @@
+.tab-bar {
+  margin: 0px;
+  padding: 0px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  height: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.horizontal-scroll {
+  white-space: nowrap;
+  overflow-x: auto;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.horizontal-scroll li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  width: 30%; 
+}
+
+.horizontal-scroll li:last-child {
+  border-right: none;
+}
+
+.horizontal-scroll a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  flex: 1;
+  text-align: center; 
+}
+
+.horizontal-scroll a:hover {
+  background-color: #e0e0e0;
+}
+
