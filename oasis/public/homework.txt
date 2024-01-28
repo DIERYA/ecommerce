@@ -1,0 +1,25 @@
+Homework 11/18/2023
+Make every element's size equal 
+
+Homework 11/24/2023
+Help: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+Github: https://github.com/DIERYA/ecommerce/pull/1
+Brainstorm ideas for new section
+Fix the errors
+
+Homework 12/30/2023
+Convert all created html
+Help: Look at BestSellers
+
+Homework 1/7/2024
+Help: Import everything in App.Js and fill out at least two components 
+
+
+
+
+
+
+
+
+
+

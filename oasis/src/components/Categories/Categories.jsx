@@ -1,39 +1,46 @@
 import React from 'react';
 import './CategoryStyles.css';
+import { Link } from "react-router-dom";
+
+
+
 
 const Categroies = () => {
   return (
-    <div className='tab-bar'>
-      <ul class='horizontal-scroll'>
-        <li>
-          <a href='#'>Best Sellers</a>
-        </li>
-        <li>
-          <a href='#'>Today's Deals</a>
-        </li>
-        <li>
-          <a href='#'>Mobiles</a>
-        </li>
-        <li>
-          <a href='#'>Customer Service</a>
-        </li>
-        <li>
-          <a href='#'>Electronic</a>
-        </li>
-        <li>
-          <a href='#'>Home & Kitchen</a>
-        </li>
-        <li>
-          <a href='#'>Fashion</a>
-        </li>
-        <li>
-          <a href='#'>Book</a>
-        </li>
-        <li className='border-white prime-image-hover'>
-          <a href='#'>Prime</a>
-        </li>
-      </ul>
-    </div>
+
+      <div className="tab-bar">
+        <ul class="horizontal-scroll">
+          <li>
+            <Link to="/bestsellers">Best Sellers</Link>
+          </li>
+          <li>
+            <Link to="/todaysDeals">Today's Deals</Link>
+          </li>
+          <li>
+            <Link to="/mobiles">Mobiles</Link>
+          </li>
+          <li>
+            <Link to="/customService">Customer Service</Link>
+          </li>
+          <li>
+            <Link to="/elec">Electronic</Link>
+          </li>
+          <li>
+            <Link to="/home">Home & Kitchen</Link>
+          </li>
+          <li>
+            <Link to="/fashion">Fashion</Link>
+          </li>
+          <li>
+            <Link to="/book">Book</Link>
+          </li>
+          <li className="border-white prime-image-hover">
+            <Link to="/prime">Prime</Link>
+          </li>
+        </ul>
+       
+      </div>
+   
   );
 };
 
