@@ -9,7 +9,7 @@ const Categroies = () => {
   return (
 
       <div className="tab-bar">
-        <ul class="horizontal-scroll">
+        <ul className="horizontal-scroll">
           <li>
             <Link to="/bestsellers">Best Sellers</Link>
           </li>
